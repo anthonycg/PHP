@@ -81,7 +81,10 @@ $total = 0;
 foreach($numbers as $number) {
   $total = $number + $total;
 }
-echo $total;
+
+$arrayLength = count($numbers);
+echo $total/$arrayLength;
+
 ?>
 
 </body>
