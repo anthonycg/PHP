@@ -93,7 +93,10 @@ $exams = array(
  
  
 
- echo $exams[0]['title'];
+
+ for($i=0;i < count($exams); $i++) {
+  echo $exams[$i]['title'];
+ };
 
 $numbers = array(1, 2, 5, 10, 255, 3);
 $total = 0;
