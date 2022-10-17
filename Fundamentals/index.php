@@ -8,6 +8,20 @@
 </head>
 
 <body>
+<?php
+$str = "I am learning the new and improved PHP.";
+
+$array = explode(' ', $str);
+
+foreach($array as $word) {
+  echo $word;
+};
+
+$lowercase = strtolower($str);
+echo $lowercase;
+
+?>
+
   <?php 
   $first_name = "Anthony";
   $last_name = "Gibson";
