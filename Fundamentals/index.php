@@ -8,19 +8,13 @@
 </head>
 
 <body>
-<?php
-$str = "I am learning the new and improved PHP.";
+<form action='process.php' method='post'>
+    First-name:<input type='text' name='first_name'>
+    Last-name: <input type='text' name='last_name'>
+    Email address: <input type='text' name='email'>
+    <input type='submit' value='add user!'>
+</form>
 
-$array = explode(' ', $str);
-
-foreach($array as $word) {
-  echo $word;
-};
-
-$lowercase = strtolower($str);
-echo $lowercase;
-
-?>
 
 <?php
 $sample = array(10, 3, 5, 8, 4, 2, 1, 333); 
